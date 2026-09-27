@@ -1,0 +1,19 @@
+sources:
+  patents:
+    inpi:
+      name: "Instituto Nacional da Propriedade Industrial"
+      enabled: true
+
+      datasets:
+        buscaweb:
+          enabled: true
+          access: "bulk_files"
+          years:
+            - 2018
+            - 2019
+            - 2020
+
+        badepi:
+          enabled: true
+          access: "bulk_file"
+          version: "11.0"

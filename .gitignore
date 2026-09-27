@@ -52,3 +52,7 @@ data/silver/*
 
 data/gold/*
 !data/gold/.gitkeep
+
+# Local configuration
+configs/*.local.yml
+configs/*.local.yaml
