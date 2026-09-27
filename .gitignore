@@ -42,3 +42,13 @@ Thumbs.db
 *.log
 *.tmp
 *.temp
+
+# Data
+data/bronze/*
+!data/bronze/.gitkeep
+
+data/silver/*
+!data/silver/.gitkeep
+
+data/gold/*
+!data/gold/.gitkeep
