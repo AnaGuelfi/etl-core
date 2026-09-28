@@ -17,3 +17,12 @@ sources:
           enabled: true
           access: "bulk_file"
           version: "11.0"
+
+  social_technologies:
+    feac:
+      name: "FEAC / Casa Hacker"
+      enabled: true
+      dataset: "tecnologias_sociais"
+      access: "csv"
+      reference_year: 2024
+      scope: "Campinas, SP"
