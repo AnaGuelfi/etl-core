@@ -1,0 +1,57 @@
+{
+  "source": "INPI",
+  "dataset": "pedidos_patentes",
+  "layer": "gold",
+  "scope": "consolidated",
+  "generated_at": "2026-09-27T22:20:55.218500+00:00",
+  "file": "patentes_analitico.csv",
+  "format": "csv",
+  "encoding": "utf-8",
+  "records": 672694,
+  "unique_numero_pedido": 672694,
+  "source_records": {
+    "badepi": 672594,
+    "buscaweb": 100
+  },
+  "badepi_version": "11.0",
+  "badepi_master_records": 672594,
+  "buscaweb_complementary_records": 100,
+  "badepi_relational_integrity": {
+    "depositantes": {
+      "records": 828118,
+      "matched": 828116,
+      "orphan_records": 2
+    },
+    "inventores": {
+      "records": 1915537,
+      "matched": 1915537,
+      "orphan_records": 0
+    },
+    "despachos": {
+      "records": 3686763,
+      "matched": 3686763,
+      "orphan_records": 0
+    },
+    "pct": {
+      "records": 263548,
+      "matched": 263548,
+      "orphan_records": 0
+    },
+    "classificacoes": {
+      "records": 1753388,
+      "matched": 1753388,
+      "orphan_records": 0
+    },
+    "prioridades": {
+      "records": 362139,
+      "matched": 362139,
+      "orphan_records": 0
+    }
+  },
+  "buscaweb_event_processing": {
+    "records_scanned": 144055,
+    "matched_complementary_records": 372,
+    "ignored_non_complementary_records": 143683
+  },
+  "missing_titulo": 27097
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-06T00:06:43.600905+00:00",
+  "purpose": "Datasets derivados das Golds oficiais do SAVITS para uso em modelagem exploratória, aprendizado de máquina e análise textual.",
+  "target_variable": null,
+  "methodological_note": "Nenhuma variável-alvo de impacto social ou inovação frugal foi criada. A definição e validação de targets deve ocorrer em etapa metodológica posterior.",
+  "sources": {
+    "patentes_inpi": {
+      "path": "data\\gold\\inpi\\pedidos_patentes\\consolidado\\patentes_analitico.csv",
+      "sha256": "c41e07761fe4880c8cac7c7dfa9c80e726aaf39797f74f1be58a6ca70013f5e1"
+    },
+    "tecnologias_sociais": {
+      "path": "data\\gold\\tecnologias_sociais\\consolidado\\tecnologias_sociais.csv",
+      "sha256": "c88833cf373ca1da7a53dab0c6b4033e49ba8c1f23aa9d64dda38bc99ad7de35"
+    }
+  },
+  "outputs": {
+    "patentes_ml": {
+      "path": "data\\gold\\ml\\patentes_ml.csv",
+      "records": 672694,
+      "fields": [
+        "numero_pedido",
+        "ano_deposito",
+        "ano_deposito_valido",
+        "quantidade_depositantes",
+        "quantidade_inventores",
+        "quantidade_despachos",
+        "quantidade_classificacoes",
+        "quantidade_prioridades",
+        "possui_pct",
+        "classificacao_ipc",
+        "ipc_subclasse",
+        "ipc_secao",
+        "ipc_secao_nome",
+        "campo_tecnologico",
+        "campo_tecnologico_principal",
+        "campo_tecnologico_nome"
+      ],
+      "sha256": "24f256e18d43f072914750841d6d7904d7464a33722895afbe7a7ebd3bf3adc0"
+    },
+    "tecnologias_sociais_ml": {
+      "path": "data\\gold\\ml\\tecnologias_sociais_ml.csv",
+      "records": 980,
+      "fields": [
+        "id_registro",
+        "fonte_registro",
+        "ano_inicio",
+        "ano_premio",
+        "tipo_status",
+        "status_registro",
+        "qtd_ods",
+        "ods_codigos",
+        "qtd_publicos",
+        "publicos",
+        "qtd_temas",
+        "temas",
+        "qtd_modalidades",
+        "modalidades",
+        "completude_cadastro",
+        "tem_descricao",
+        "tem_texto_analitico"
+      ],
+      "sha256": "64b63b2650fa01e9d5dc77cefae3f76a36bd7d03c6f7825715718921aacfcc42"
+    },
+    "tecnologias_sociais_textos": {
+      "path": "data\\gold\\ml\\tecnologias_sociais_textos.jsonl",
+      "records": 980,
+      "format": "jsonl",
+      "sha256": "0929863461cda411eadafa2173c0391cab3d55a33a708face9b88d1afee01412"
+    }
+  }
+}

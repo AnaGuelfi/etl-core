@@ -56,3 +56,13 @@ data/gold/*
 # Local configuration
 configs/*.local.yml
 configs/*.local.yaml
+
+# Golds oficiais e datasets de entrega
+!data/
+data/*
+!data/gold/
+!data/gold/**
+
+# EPO experimental não integra os dados oficiais
+data/gold/diagnostico_epo/
+data/gold/diagnostico_epo/**

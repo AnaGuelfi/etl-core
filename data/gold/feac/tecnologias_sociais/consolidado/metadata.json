@@ -1,0 +1,27 @@
+{
+  "source": "FEAC / Casa Hacker",
+  "dataset": "tecnologias_sociais",
+  "layer": "gold",
+  "scope": "Campinas, SP",
+  "reference_year": 2024,
+  "generated_at": "2026-09-28T00:29:16.442467+00:00",
+  "file": "tecnologias_sociais_analitico.csv",
+  "format": "csv",
+  "encoding": "utf-8",
+  "records": 108,
+  "unique_ids": 108,
+  "active_records": 97,
+  "missing_nome_tecnologia": 3,
+  "source_analytical_fields": [
+    "grau_conexoes",
+    "papel_na_rede",
+    "indice_dependencia_feac",
+    "indice_articulacao_rede",
+    "indice_presenca_digital",
+    "indice_amplitude_tematica",
+    "indice_consolidacao",
+    "cluster_id",
+    "arquetipo",
+    "completude_cadastro"
+  ]
+}

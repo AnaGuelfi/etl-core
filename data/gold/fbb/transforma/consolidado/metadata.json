@@ -1,0 +1,36 @@
+{
+  "source": "Fundação Banco do Brasil - Transforma!",
+  "dataset": "tecnologias_sociais",
+  "layer": "gold",
+  "snapshot_reference": 20260927,
+  "generated_at": "2026-09-28T23:05:09.236178+00:00",
+  "file": "tecnologias_sociais_analitico.csv",
+  "format": "csv",
+  "encoding": "utf-8",
+  "records": 872,
+  "unique_ids": 872,
+  "unique_slugs": 872,
+  "with_themes": 872,
+  "with_ods": 685,
+  "with_publics": 398,
+  "missing_title": 0,
+  "missing_institution": 0,
+  "average_completeness": 100.0,
+  "completeness_fields": [
+    "titulo",
+    "instituicao",
+    "status_premio",
+    "ano_premio",
+    "resumo",
+    "problema_solucionado",
+    "descricao",
+    "recursos_necessarios",
+    "resultados_alcancados"
+  ],
+  "source_silver_files": [
+    "tecnologias.csv",
+    "tecnologias_temas.csv",
+    "tecnologias_ods.csv",
+    "tecnologias_publicos.csv"
+  ]
+}

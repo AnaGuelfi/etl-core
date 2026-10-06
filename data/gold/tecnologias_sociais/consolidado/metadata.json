@@ -1,0 +1,55 @@
+{
+  "dataset": "tecnologias_sociais",
+  "layer": "gold",
+  "scope": "multi_source",
+  "generated_at": "2026-09-28T23:25:57.563265+00:00",
+  "file": "tecnologias_sociais.csv",
+  "format": "csv",
+  "encoding": "utf-8",
+  "records": 980,
+  "unique_ids": 980,
+  "sources": {
+    "feac_casa_hacker": {
+      "file": "data\\gold\\feac\\tecnologias_sociais\\consolidado\\tecnologias_sociais_analitico.csv",
+      "records": 108
+    },
+    "fbb_transforma": {
+      "file": "data\\gold\\fbb\\transforma\\consolidado\\tecnologias_sociais_analitico.csv",
+      "records": 872
+    }
+  },
+  "quality": {
+    "missing_title": 3,
+    "missing_organization": 0,
+    "with_ods": 790,
+    "with_publics": 503,
+    "with_description": 960,
+    "with_analytical_text": 977
+  },
+  "semantic_notes": {
+    "status_registro": "Preserva o significado da fonte. Na FEAC representa atividade; no Transforma! representa situação na premiação.",
+    "referencia_fonte": "Na FEAC representa ano de referência; no Transforma! representa a data do snapshot YYYYMMDD.",
+    "temas_modalidades": "Temas do Transforma! e modalidades da FEAC permanecem em campos separados.",
+    "texto_analitico": "Na FEAC, quando desc_tecnologia está ausente, usa fallback apenas com campos estruturados disponíveis na fonte.",
+    "completude_cadastro": "Indicador preservado da Gold de origem. As metodologias das fontes são diferentes e os valores não devem ser comparados diretamente."
+  },
+  "ods_mapping": {
+    "1": "Erradicação da Pobreza",
+    "2": "Fome Zero e Agricultura Sustentável",
+    "3": "Saúde e Bem Estar",
+    "4": "Educação de Qualidade",
+    "5": "Igualdade de Gênero",
+    "6": "Água Potável e Saneamento",
+    "7": "Energia Acessível e Limpa",
+    "8": "Trabalho Decente e Crescimento Econômico",
+    "9": "Indústria, Inovação e Infraestrutura",
+    "10": "Redução das Desigualdades",
+    "11": "Cidades e Comunidades Sustentáveis",
+    "12": "Consumo e Produção Responsáveis",
+    "13": "Ação Contra a Mudança Global do Clima",
+    "14": "Vida na Água",
+    "15": "Vida Terrestre",
+    "16": "Paz, Justiça e Instituições Eficazes",
+    "17": "Parcerias e Meios de Implementação"
+  }
+}
