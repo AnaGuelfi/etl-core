@@ -1,0 +1,584 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-05T23:53:02.303266+00:00",
+    "scope": "Indicadores analíticos descritivos do SAVITS",
+    "methodological_note": "Os indicadores são descritivos e não representam medidas causais de impacto social ou inovação frugal.",
+    "sources": {
+      "inpi": {
+        "file": "data\\gold\\inpi\\pedidos_patentes\\consolidado\\patentes_analitico.csv",
+        "sha256": "c41e07761fe4880c8cac7c7dfa9c80e726aaf39797f74f1be58a6ca70013f5e1"
+      },
+      "tecnologias_sociais": {
+        "file": "data\\gold\\tecnologias_sociais\\consolidado\\tecnologias_sociais.csv",
+        "sha256": "c88833cf373ca1da7a53dab0c6b4033e49ba8c1f23aa9d64dda38bc99ad7de35"
+      }
+    }
+  },
+  "patentes": {
+    "total_pedidos": 672694,
+    "com_titulo": 645597,
+    "percentual_com_titulo": 95.97,
+    "com_pct": 259307,
+    "percentual_pct": 38.55,
+    "com_ipc": 633583,
+    "percentual_com_ipc": 94.19,
+    "com_campo_tecnologico": 633515,
+    "percentual_com_campo_tecnologico": 94.18,
+    "com_publicacao_rpi": 670825,
+    "percentual_com_publicacao_rpi": 99.72,
+    "media_depositantes": 1.23,
+    "media_inventores": 2.85,
+    "ano_limite_fonte": 2024,
+    "anos_deposito_fora_cobertura": 96,
+    "serie_ano_deposito": [
+      {
+        "ano": 1979,
+        "quantidade": 1
+      },
+      {
+        "ano": 1980,
+        "quantidade": 2
+      },
+      {
+        "ano": 1981,
+        "quantidade": 2
+      },
+      {
+        "ano": 1987,
+        "quantidade": 1
+      },
+      {
+        "ano": 1988,
+        "quantidade": 2
+      },
+      {
+        "ano": 1989,
+        "quantidade": 2
+      },
+      {
+        "ano": 1990,
+        "quantidade": 1
+      },
+      {
+        "ano": 1991,
+        "quantidade": 5
+      },
+      {
+        "ano": 1992,
+        "quantidade": 10
+      },
+      {
+        "ano": 1993,
+        "quantidade": 22
+      },
+      {
+        "ano": 1994,
+        "quantidade": 57
+      },
+      {
+        "ano": 1995,
+        "quantidade": 113
+      },
+      {
+        "ano": 1996,
+        "quantidade": 168
+      },
+      {
+        "ano": 1997,
+        "quantidade": 349
+      },
+      {
+        "ano": 1998,
+        "quantidade": 5338
+      },
+      {
+        "ano": 1999,
+        "quantidade": 10924
+      },
+      {
+        "ano": 2000,
+        "quantidade": 21243
+      },
+      {
+        "ano": 2001,
+        "quantidade": 21208
+      },
+      {
+        "ano": 2002,
+        "quantidade": 20007
+      },
+      {
+        "ano": 2003,
+        "quantidade": 21833
+      },
+      {
+        "ano": 2004,
+        "quantidade": 23372
+      },
+      {
+        "ano": 2005,
+        "quantidade": 24986
+      },
+      {
+        "ano": 2006,
+        "quantidade": 26043
+      },
+      {
+        "ano": 2007,
+        "quantidade": 26111
+      },
+      {
+        "ano": 2008,
+        "quantidade": 27376
+      },
+      {
+        "ano": 2009,
+        "quantidade": 29853
+      },
+      {
+        "ano": 2010,
+        "quantidade": 32581
+      },
+      {
+        "ano": 2011,
+        "quantidade": 34690
+      },
+      {
+        "ano": 2012,
+        "quantidade": 34207
+      },
+      {
+        "ano": 2013,
+        "quantidade": 34163
+      },
+      {
+        "ano": 2014,
+        "quantidade": 32302
+      },
+      {
+        "ano": 2015,
+        "quantidade": 29819
+      },
+      {
+        "ano": 2016,
+        "quantidade": 29542
+      },
+      {
+        "ano": 2017,
+        "quantidade": 28294
+      },
+      {
+        "ano": 2018,
+        "quantidade": 26716
+      },
+      {
+        "ano": 2019,
+        "quantidade": 26403
+      },
+      {
+        "ano": 2020,
+        "quantidade": 27194
+      },
+      {
+        "ano": 2021,
+        "quantidade": 26626
+      },
+      {
+        "ano": 2022,
+        "quantidade": 25294
+      },
+      {
+        "ano": 2023,
+        "quantidade": 16114
+      },
+      {
+        "ano": 2024,
+        "quantidade": 9620
+      }
+    ],
+    "top_campos_tecnologicos": [
+      {
+        "label": "14 — Química orgânica fina",
+        "quantidade": 46627
+      },
+      {
+        "label": "16 — Farmacêutica",
+        "quantidade": 42193
+      },
+      {
+        "label": "13 — Tecnologia médica",
+        "quantidade": 40017
+      },
+      {
+        "label": "32 — Transporte",
+        "quantidade": 32730
+      },
+      {
+        "label": "29 — Outras máquinas especiais",
+        "quantidade": 32510
+      },
+      {
+        "label": "19 — Química de materiais básicos",
+        "quantidade": 30897
+      },
+      {
+        "label": "35 — Engenharia civil",
+        "quantidade": 30635
+      },
+      {
+        "label": "15 — Biotecnologia",
+        "quantidade": 29886
+      },
+      {
+        "label": "25 — Manuseio",
+        "quantidade": 26265
+      },
+      {
+        "label": "4 — Comunicação digital",
+        "quantidade": 25013
+      },
+      {
+        "label": "1 — Máquinas e aparelhos elétricos; energia",
+        "quantidade": 22605
+      },
+      {
+        "label": "23 — Engenharia química",
+        "quantidade": 19192
+      }
+    ],
+    "ipc_secoes": [
+      {
+        "label": "A — Necessidades humanas",
+        "quantidade": 167247
+      },
+      {
+        "label": "C — Química e metalurgia",
+        "quantidade": 131128
+      },
+      {
+        "label": "B — Operações e transporte",
+        "quantidade": 116698
+      },
+      {
+        "label": "H — Eletricidade",
+        "quantidade": 64635
+      },
+      {
+        "label": "G — Física",
+        "quantidade": 63978
+      },
+      {
+        "label": "F — Engenharia mecânica",
+        "quantidade": 48867
+      },
+      {
+        "label": "E — Construções fixas",
+        "quantidade": 30655
+      },
+      {
+        "label": "D — Têxteis e papel",
+        "quantidade": 10375
+      }
+    ],
+    "top_ipc": [
+      {
+        "label": "A61K",
+        "quantidade": 48442
+      },
+      {
+        "label": "C07D",
+        "quantidade": 24737
+      },
+      {
+        "label": "B65D",
+        "quantidade": 13976
+      },
+      {
+        "label": "H04W",
+        "quantidade": 13480
+      },
+      {
+        "label": "C12N",
+        "quantidade": 12209
+      },
+      {
+        "label": "A61B",
+        "quantidade": 11683
+      },
+      {
+        "label": "G06F",
+        "quantidade": 11002
+      },
+      {
+        "label": "E21B",
+        "quantidade": 10785
+      },
+      {
+        "label": "A01N",
+        "quantidade": 10574
+      },
+      {
+        "label": "C07K",
+        "quantidade": 10408
+      },
+      {
+        "label": "H04L",
+        "quantidade": 10359
+      },
+      {
+        "label": "C07C",
+        "quantidade": 9326
+      }
+    ],
+    "multiplos_inventores": 428821,
+    "percentual_multiplos_inventores": 63.75,
+    "multiplos_depositantes": 110710,
+    "percentual_multiplos_depositantes": 16.46,
+    "media_despachos": 5.48,
+    "media_classificacoes": 2.61
+  },
+  "tecnologias_sociais": {
+    "total_tecnologias_sociais": 980,
+    "com_titulo": 977,
+    "percentual_com_titulo": 99.69,
+    "com_organizacao": 980,
+    "percentual_com_organizacao": 100.0,
+    "com_ods": 790,
+    "percentual_com_ods": 80.61,
+    "com_publicos": 503,
+    "percentual_com_publicos": 51.33,
+    "com_descricao": 960,
+    "percentual_com_descricao": 97.96,
+    "com_texto_analitico": 977,
+    "percentual_com_texto_analitico": 99.69,
+    "media_completude_cadastro": 99.08,
+    "por_fonte": [
+      {
+        "label": "fbb_transforma",
+        "quantidade": 872
+      },
+      {
+        "label": "feac_casa_hacker",
+        "quantidade": 108
+      }
+    ],
+    "por_status": [
+      {
+        "label": "Certificada",
+        "quantidade": 713
+      },
+      {
+        "label": "Finalista",
+        "quantidade": 97
+      },
+      {
+        "label": "Sim",
+        "quantidade": 97
+      },
+      {
+        "label": "Vencedora",
+        "quantidade": 62
+      },
+      {
+        "label": "Não identificado",
+        "quantidade": 10
+      },
+      {
+        "label": "Não",
+        "quantidade": 1
+      }
+    ],
+    "top_ods": [
+      {
+        "label": "Educação de Qualidade",
+        "quantidade": 429
+      },
+      {
+        "label": "Trabalho Decente e Crescimento Econômico",
+        "quantidade": 310
+      },
+      {
+        "label": "Ação Contra a Mudança Global do Clima",
+        "quantidade": 248
+      },
+      {
+        "label": "Saúde e Bem Estar",
+        "quantidade": 216
+      },
+      {
+        "label": "Redução das Desigualdades",
+        "quantidade": 154
+      },
+      {
+        "label": "Fome Zero e Agricultura Sustentável",
+        "quantidade": 117
+      },
+      {
+        "label": "Consumo e Produção Responsáveis",
+        "quantidade": 97
+      },
+      {
+        "label": "Água Potável e Saneamento",
+        "quantidade": 64
+      },
+      {
+        "label": "Parcerias e Meios de Implementação",
+        "quantidade": 50
+      },
+      {
+        "label": "Cidades e Comunidades Sustentáveis",
+        "quantidade": 48
+      },
+      {
+        "label": "Erradicação da Pobreza",
+        "quantidade": 46
+      },
+      {
+        "label": "Vida Terrestre",
+        "quantidade": 46
+      },
+      {
+        "label": "Igualdade de Gênero",
+        "quantidade": 33
+      },
+      {
+        "label": "Paz, Justiça e Instituições Eficazes",
+        "quantidade": 27
+      },
+      {
+        "label": "Indústria, Inovação e Infraestrutura",
+        "quantidade": 19
+      },
+      {
+        "label": "Energia Acessível e Limpa",
+        "quantidade": 15
+      },
+      {
+        "label": "Vida na Água",
+        "quantidade": 3
+      }
+    ],
+    "top_publicos": [
+      {
+        "label": "Adolescentes",
+        "quantidade": 158
+      },
+      {
+        "label": "Famílias de Baixa Renda",
+        "quantidade": 135
+      },
+      {
+        "label": "Agricultores Familiares",
+        "quantidade": 126
+      },
+      {
+        "label": "Adulto",
+        "quantidade": 124
+      },
+      {
+        "label": "Mulheres",
+        "quantidade": 114
+      },
+      {
+        "label": "Jovens",
+        "quantidade": 112
+      },
+      {
+        "label": "Crianças",
+        "quantidade": 103
+      },
+      {
+        "label": "Lideranças Comunitárias",
+        "quantidade": 86
+      },
+      {
+        "label": "Alunos do Ensino Fundamental",
+        "quantidade": 83
+      },
+      {
+        "label": "Afrodescendentes",
+        "quantidade": 67
+      },
+      {
+        "label": "Alunos do Ensino Médio",
+        "quantidade": 66
+      },
+      {
+        "label": "População em Geral",
+        "quantidade": 63
+      },
+      {
+        "label": "Povos Tradicionais",
+        "quantidade": 62
+      },
+      {
+        "label": "Alunos do Ensino Básico",
+        "quantidade": 60
+      },
+      {
+        "label": "Povos Indígenas",
+        "quantidade": 50
+      }
+    ],
+    "top_temas": [
+      {
+        "label": "Educação",
+        "quantidade": 471
+      },
+      {
+        "label": "Meio ambiente",
+        "quantidade": 345
+      },
+      {
+        "label": "Renda",
+        "quantidade": 342
+      },
+      {
+        "label": "Saúde",
+        "quantidade": 139
+      },
+      {
+        "label": "Alimentação",
+        "quantidade": 132
+      },
+      {
+        "label": "Recursos Hídricos",
+        "quantidade": 80
+      },
+      {
+        "label": "Habitação",
+        "quantidade": 31
+      },
+      {
+        "label": "Energia",
+        "quantidade": 19
+      }
+    ],
+    "top_modalidades": [
+      {
+        "label": "Formação/Capacitação",
+        "quantidade": 82
+      },
+      {
+        "label": "Cultura/Esporte/Arte",
+        "quantidade": 55
+      },
+      {
+        "label": "Atendimento/Serviço direto",
+        "quantidade": 47
+      },
+      {
+        "label": "Ambiental/Infraestrutura/Tecnologia",
+        "quantidade": 42
+      },
+      {
+        "label": "Geração de renda/Inclusão produtiva",
+        "quantidade": 40
+      },
+      {
+        "label": "Articulação/Mobilização/Advocacy",
+        "quantidade": 34
+      }
+    ]
+  }
+}
