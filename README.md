@@ -37,7 +37,3 @@ source .venv/Scripts/activate
 ```bash
 python -m pip install -e ".[dev]"
 ```
-
-## Status
-
-Estrutura inicial do projeto.
